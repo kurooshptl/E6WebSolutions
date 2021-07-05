@@ -66,7 +66,7 @@ class ContactUsFormController extends Controller
             ), function ($message) use ($request) {
 
                 $message->from($request->email);
-                $message->to('kurooshptl@gmail.com', 'Admin')->subject('E6WebSolution Contact Mail');
+                $message->to('e6websolutions@gmail.com', 'E6WebSolutions')->subject('E6WebSolution Contact Mail');
             });
 
             //

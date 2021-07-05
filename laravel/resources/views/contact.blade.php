@@ -28,10 +28,6 @@
                 <div class="alert alert-success">
                     {{Session::get('success')}}
                 </div>
-            @elseif(Session::has('error'))
-                <div class="alert alert-success">
-                    {{Session::get('success')}}
-                </div>
             @endif
 
             <div class="row">
@@ -42,9 +38,11 @@
                         <!-- form message -->
                         <div class="row">
                             <div class="col-12">
-                                <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                    Your message was sent successfully.
-                                </div>
+                                @if(Session::has('success'))
+                                    <div class="alert alert-success contact__msg"  role="alert">
+                                        {{Session::get('success')}}
+                                    </div>
+                                @endif
                             </div>
                         </div>
                         <!-- end message -->
