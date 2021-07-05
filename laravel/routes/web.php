@@ -12,5 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('app');
+    return view('home');
 });
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+Route::get('/service', function () {
+    return view('services');
+})->name('service');
+Route::get('/portfolio', function () {
+    return view('portfolio');
+})->name('portfolio');
+Route::get('/blog', function () {
+    return view('blog');
+})->name('blog');
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');
+Route::get('/quote', function () {
+    return view('quote');
+})->name('quote');
+
+
