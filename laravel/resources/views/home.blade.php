@@ -188,8 +188,8 @@
                         <span class="h6 text-color">We create for you</span>
                         <h2 class="mt-2 mb-4">Entrust Your Project to Our Best Team of Professionals</h2>
                         <p class="lead mb-4">Have any project on mind? For immidiate support :</p>
-                        <h3><i class="ti-mobile mr-3 text-color"></i>+91 98250 98361</h3>
-                        <h3><i class="fa fa-envelope mr-3 text-color"></i>e6websolutions@gmail.com</h3>
+                        <h3><i class="ti-mobile mr-3 text-color"></i>{{config('constants.phone_number')}}</h3>
+                        <h3><i class="fa fa-envelope mr-3 text-color"></i>{{config('constants.email_id')}}</h3>
                     </div>
                 </div>
             </div>
@@ -341,7 +341,7 @@
                         <h2 class="mt-2 mb-4 mb-lg-0">Entrust Your Project to Our Best Team of Professionals</h2>
                     </div>
                     <div class="col-lg-4">
-                        <a href="contact.html" class="btn btn-main btn-round-full float-lg-right ">Contact Us</a>
+                        <a href="{{route('contact')}}" class="btn btn-main btn-round-full float-lg-right ">Contact Us</a>
                     </div>
                 </div>
             </div>

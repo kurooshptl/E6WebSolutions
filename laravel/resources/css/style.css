@@ -373,7 +373,7 @@ a:focus {
 }
 
 /*--
-	features-work Start 
+	features-work Start
 --*/
 #features-work {
   padding-top: 50px;
@@ -1268,6 +1268,11 @@ h3.quote::before {
 
 .footer-socials li a {
   margin-left: 15px;
+}
+
+.error{
+    border-color: red!important;
+    color: #f75757;
 }
 
 /*=== MEDIA QUERY ===*/

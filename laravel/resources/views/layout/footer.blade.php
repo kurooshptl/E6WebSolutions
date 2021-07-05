@@ -44,8 +44,8 @@
                     <div class="logo mb-4">
                         <h3>E6Web<span>Solutions</span></h3>
                     </div>
-                    <h6><a href="mailto:e6websolutions@gmail.com">e6websolutions@gmail.com</a></h6>
-                    <a href="tel:+91 98250 98361"><span class="text-color h4">+91 98250 98361</span></a>
+                    <h6><a href="mailto:{{config('constants.email_id')}}">{{config('constants.email_id')}}</a></h6>
+                    <a href="tel:{{config('constants.phone_number')}}"><span class="text-color h4">{{config('constants.phone_number')}}</span></a>
                 </div>
             </div>
         </div>

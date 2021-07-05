@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 Route::get('/about', function () {
     return view('about');
 })->name('about');
@@ -33,4 +33,4 @@ Route::get('/quote', function () {
     return view('quote');
 })->name('quote');
 
-
+Route::post('/contact', 'ContactUsFormController@store')->name('contact.store');

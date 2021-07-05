@@ -11,7 +11,7 @@
                         <span class="text-white">Our services</span>
                         <h1 class="text-capitalize mb-4 text-lg">What We Do</h1>
                         <ul class="list-inline">
-                            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                            <li class="list-inline-item"><a href="{{route('home')}}" class="text-white">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">/</span></li>
                             <li class="list-inline-item"><a href="#" class="text-white-50">Our services</a></li>
                         </ul>
@@ -99,7 +99,7 @@
                         <h2 class="mt-2 text-white">Entrust Your Project to Our Best Team of Professionals</h2>
                     </div>
                     <div class="col-lg-4">
-                        <a href="contact.html" class="btn btn-main btn-round-full float-right">Contact Us</a>
+                        <a href="{{route('contact')}}" class="btn btn-main btn-round-full float-right">Contact Us</a>
                     </div>
                 </div>
             </div>

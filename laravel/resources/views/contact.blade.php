@@ -3,6 +3,7 @@
 
 @section('content')
 
+
     <section class="page-title bg-1">
         <div class="container">
             <div class="row">
@@ -11,7 +12,7 @@
                         <span class="text-white">Contact Us</span>
                         <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
                         <ul class="list-inline">
-                            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                            <li class="list-inline-item"><a href="{{route('home')}}" class="text-white">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">/</span></li>
                             <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
                         </ul>
@@ -22,10 +23,22 @@
     </section>
     <!-- contact form start -->
     <section class="contact-form-wrap section">
-        <div class="container">
+        <div class="container">   <!-- Success message -->
+            @if(Session::has('success'))
+                <div class="alert alert-success">
+                    {{Session::get('success')}}
+                </div>
+            @elseif(Session::has('error'))
+                <div class="alert alert-success">
+                    {{Session::get('success')}}
+                </div>
+            @endif
+
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <form id="contact-form" class="contact__form" method="post" action="mail.php">
+                    <form id="contact-form" class="contact__form" method="post" action="/contact">
+                        <!-- CROSS Site Request Forgery Protection -->
+                    @csrf
                         <!-- form message -->
                         <div class="row">
                             <div class="col-12">
@@ -38,16 +51,28 @@
                         <span class="text-color">Send a message</span>
                         <h3 class="text-md mb-4">Contact Form</h3>
                         <div class="form-group">
-                            <input name="name" type="text" class="form-control" placeholder="Name">
+                            <input name="name" type="text" class="form-control  {{ $errors->has('name') ? 'error' : '' }}" placeholder="Name" value="{{old('name')}}">
+                            @error('name')
+                            <span class="error">{{ $message }}</span>
+                            @enderror
                         </div>
                         <div class="form-group">
-                            <input name="contact_number" type="text" class="form-control" placeholder="Contact Number">
+                            <input name="phone" type="tel"  class="form-control  {{ $errors->has('phone') ? 'error' : '' }}" placeholder="Contact Number" value="{{old('phone')}}">
+                            @error('phone')
+                            <span class="error">{{ $message }}</span>
+                            @enderror
                         </div>
                         <div class="form-group">
-                            <input name="email" type="email" class="form-control" placeholder="Email Address">
+                            <input name="email" type="email" class="form-control  {{ $errors->has('email') ? 'error' : '' }}" placeholder="Email Address" value="{{old('email')}}">
+                            @error('email')
+                            <span class="error">{{ $message }}</span>
+                            @enderror
                         </div>
                         <div class="form-group-2 mb-4">
-                            <textarea name="message" class="form-control" rows="4" placeholder="Message"></textarea>
+                            <textarea name="message" class="form-control  {{ $errors->has('message') ? 'error' : '' }}" rows="4" placeholder="Message">{{old('message')}}</textarea>
+                            @error('message')
+                            <span class="error">{{ $message }}</span>
+                            @enderror
                         </div>
                         <button class="btn btn-main" name="submit" type="submit">Send Message</button>
                     </form>
@@ -60,13 +85,13 @@
 
                         <ul class="address-block list-unstyled">
                             <li>
-                                <i class="ti-direction mr-3"></i>804, Matrix Tower, Corporate Road, PrahladNagar, Ahmedabad
+                                <i class="ti-direction mr-3"></i>{{config('constants.address')}}
                             </li>
                             <li>
-                                <i class="ti-email mr-3"></i>Email: e6websolutions@gmail.com
+                                <i class="ti-email mr-3"></i>Email: {{config('constants.email_id')}}
                             </li>
                             <li>
-                                <i class="ti-mobile mr-3"></i>Phone:+91 98250 98361
+                                <i class="ti-mobile mr-3"></i>Phone:{{config('constants.phone_number')}}
                             </li>
                         </ul>
 

@@ -42,8 +42,8 @@
                 </div>
                 <div class="col-lg-10 col-md-8 text-center text-lg-right text-md-right">
                     <div class="header-top-info">
-                        <a href="tel:+91 98250 98361">Call Us : <span>+91 98250 98361</span></a>
-                        <a href="mailto:e6websolutions@gmail.com" ><i class="fa fa-envelope mr-2"></i><span>e6websolutions@gmail.com</span></a>
+                        <a href="tel:{{config('constants.phone_number')}}">Call Us : <span>{{config('constants.phone_number')}}</span></a>
+                        <a href="mailto:{{config('constants.email_id')}}" ><i class="fa fa-envelope mr-2"></i><span>{{config('constants.email_id')}}</span></a>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
     </div>
     <nav class="navbar navbar-expand-lg  py-4" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="{{route('home')}}">
                 E6Web<span>Solutions</span>
             </a>
 
@@ -62,7 +62,7 @@
             <div class="collapse navbar-collapse text-center" id="navbarsExample09">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('service')}}">Services</a></li>

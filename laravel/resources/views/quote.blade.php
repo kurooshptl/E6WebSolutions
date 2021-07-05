@@ -12,7 +12,7 @@
                         <span class="text-white">Contact Us</span>
                         <h1 class="text-capitalize mb-4 text-lg">Get in Touch</h1>
                         <ul class="list-inline">
-                            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+                            <li class="list-inline-item"><a href="{{route('home')}}" class="text-white">Home</a></li>
                             <li class="list-inline-item"><span class="text-white">/</span></li>
                             <li class="list-inline-item"><a href="#" class="text-white-50">Contact Us</a></li>
                         </ul>
@@ -61,13 +61,13 @@
 
                         <ul class="address-block list-unstyled">
                             <li>
-                                <i class="ti-direction mr-3"></i>804, Matrix Tower, Corporate Road, PrahladNagar, Ahmedabad
+                                <i class="ti-direction mr-3"></i>{{config('constants.address')}}
                             </li>
                             <li>
-                                <i class="ti-email mr-3"></i>Email: e6websolutions@gmail.com
+                                <i class="ti-email mr-3"></i>Email: {{config('constants.email_id')}}
                             </li>
                             <li>
-                                <i class="ti-mobile mr-3"></i>Phone:+91 98250 98361
+                                <i class="ti-mobile mr-3"></i>Phone:{{config('constants.phone_number')}}
                             </li>
                         </ul>
 
