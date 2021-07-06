@@ -20,10 +20,10 @@
                     <h4 class="text-capitalize mb-4">Quick Links</h4>
 
                     <ul class="list-unstyled footer-menu lh-35">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="{{route('about')}}">About</a></li>
+                        <li><a href="{{route('service')}}">Services</a></li>
+                        <li><a href="{{route('team')}}">Team</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
                     </ul>
                 </div>
             </div>

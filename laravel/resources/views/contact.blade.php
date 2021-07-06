@@ -22,7 +22,7 @@
         </div>
     </section>
     <!-- contact form start -->
-    <section class="contact-form-wrap section">
+    <section class="section service border-top">
         <div class="container">   <!-- Success message -->
             @if(Session::has('success'))
                 <div class="alert alert-success">
@@ -36,7 +36,7 @@
                         <!-- CROSS Site Request Forgery Protection -->
                     @csrf
                         <!-- form message -->
-                        <div class="row">
+                       {{-- <div class="row">
                             <div class="col-12">
                                 @if(Session::has('success'))
                                     <div class="alert alert-success contact__msg"  role="alert">
@@ -44,7 +44,7 @@
                                     </div>
                                 @endif
                             </div>
-                        </div>
+                        </div>--}}
                         <!-- end message -->
                         <span class="text-color">Send a message</span>
                         <h3 class="text-md mb-4">Contact Form</h3>

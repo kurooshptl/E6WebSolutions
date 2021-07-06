@@ -21,7 +21,7 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-
+    <link rel="icon" href="{{asset('images/icon.ico')}}" type="image/icon type">
 </head>
 
 
@@ -67,7 +67,7 @@
                     </li>
                     <li class="nav-item"><a class="nav-link" href="{{route('about')}}">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('service')}}">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>
+{{--                    <li class="nav-item"><a class="nav-link" href="{{route('portfolio')}}">Portfolio</a></li>--}}
                     <li class="nav-item"><a class="nav-link" href="{{route('blog')}}">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('contact')}}">Contact</a></li>
                 </ul>

@@ -11,7 +11,7 @@
                     <div class="block">
                         <span class="d-block mb-3 text-white text-capitalize">Prepare for new future</span>
                         <h1 class="animated fadeInUp mb-5">Our work is <br>presentation of our <br>capabilities.</h1>
-                        <a href="#" target="_blank" class="btn btn-main animated fadeInUp btn-round-full" >Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
+                        <a href="{{route('service')}}" target="_blank" class="btn btn-main animated fadeInUp btn-round-full" >Get started<i class="btn-icon fa fa-angle-right ml-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                             <h4 class="mb-3 position-relative">We are Perfect Solution</h4>
                             <p class="mb-5">We provide technical support, development, design, and maintenance for all your IT needs, from web to desktop to mobile app development. We’re part of your arsenal of strategic tools. </p>
 
-                            <a href="#" class="btn btn-main btn-round-full">Get started</a>
+                            <a href="{{route('team')}}" class="btn btn-main btn-round-full">Get started</a>
                         </div>
                     </div>
                 </div>

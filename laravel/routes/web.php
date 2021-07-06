@@ -19,10 +19,10 @@ Route::get('/about', function () {
 })->name('about');
 Route::get('/service', function () {
     return view('services');
-})->name('service');
+})->name('service');/*
 Route::get('/portfolio', function () {
     return view('portfolio');
-})->name('portfolio');
+})->name('portfolio');*/
 Route::get('/blog', function () {
     return view('blog');
 })->name('blog');
@@ -32,5 +32,9 @@ Route::get('/contact', function () {
 Route::get('/quote', function () {
     return view('quote');
 })->name('quote');
+Route::get('/team', function () {
+    return view('team');
+})->name('team');
 
 Route::post('/contact', 'ContactUsFormController@store')->name('contact.store');
+Route::post('/quotes', 'QuoteController@store')->name('quote.store');
