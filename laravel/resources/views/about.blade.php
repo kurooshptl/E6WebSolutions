@@ -1,8 +1,7 @@
 @extends('app')
 @section('content')
-    <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-
+    <section id="about" class="about section-bg">
+        <div class="container pt-4" data-aos="fade-up">
             <div class="section-title">
                 <h2>About Us</h2>
             </div>
