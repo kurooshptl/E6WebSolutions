@@ -20,13 +20,11 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>Arsha</h3>
+                    <h3> {{env('APP_NAME')}} </h3>
                     <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        {{config('constants.address')}} <br><br>
+                        <strong>Phone:</strong> {{config('constants.phone_number')}}<br>
+                        <strong>Email:  </strong>{{config('constants.email_id')}}<br>
                     </p>
                 </div>
 
@@ -37,7 +35,7 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+
                     </ul>
                 </div>
 
@@ -48,7 +46,7 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+
                     </ul>
                 </div>
 
