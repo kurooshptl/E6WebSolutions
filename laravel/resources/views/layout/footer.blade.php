@@ -1,70 +1,102 @@
+<!-- ======= Footer ======= -->
+<footer id="footer">
 
-<!-- footer Start -->
-<footer class="footer section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="widget">
-                    <h4 class="text-capitalize mb-4">Company</h4>
-
-                    <ul class="list-unstyled footer-menu lh-35">
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-2 col-md-6 col-sm-6">
-                <div class="widget">
-                    <h4 class="text-capitalize mb-4">Quick Links</h4>
-
-                    <ul class="list-unstyled footer-menu lh-35">
-                        <li><a href="{{route('about')}}">About</a></li>
-                        <li><a href="{{route('service')}}">Services</a></li>
-                        <li><a href="{{route('team')}}">Team</a></li>
-                        <li><a href="{{route('contact')}}">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="widget">
-                    <h4 class="text-capitalize mb-4">Subscribe Us</h4>
-                    <p>Subscribe to get latest news article and resources  </p>
-
-                    <form action="#" class="sub-form">
-                        <input type="text" class="form-control mb-3" placeholder="Subscribe Now ...">
-                        <a href="#" class="btn btn-main btn-small">subscribe</a>
-                    </form>
-                </div>
-            </div>
-
-            <div class="col-lg-3 ml-auto col-sm-6">
-                <div class="widget">
-                    <div class="logo mb-4">
-                        <h3>E6Web<span>Solutions</span></h3>
-                    </div>
-                    <h6><a href="mailto:{{config('constants.email_id')}}">{{config('constants.email_id')}}</a></h6>
-                    <a href="tel:{{config('constants.phone_number')}}"><span class="text-color h4">{{config('constants.phone_number')}}</span></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-btm pt-4">
-            <div class="row">
+    <div class="footer-newsletter">
+        <div class="container">
+            <div class="row justify-content-center">
                 <div class="col-lg-6">
-                    <div class="copyright">
-                        &copy; Copyright Reserved to <span class="text-color">E6WebSolutions.</span>  By 2021</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-left text-lg-right">
-                    <ul class="list-inline footer-socials">
-                        <li class="list-inline-item"><a href="{{config('constants.facebook_url')}}" target="_blank"><i class="ti-facebook mr-2"></i>Facebook</a></li>
-                        <li class="list-inline-item"><a href="{{config('constants.instagram_url')}}" target="_blank"><i class="ti-instagram mr-2"></i>Instagram</a></li>
-                        <li class="list-inline-item"><a href="{{config('constants.linked_in_url')}}" target="_blank"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
-                    </ul>
+                    <h4>Join Our Newsletter</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <form action="" method="post">
+                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-</footer>
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>Arsha</h3>
+                    <p>
+                        A108 Adam Street <br>
+                        New York, NY 535022<br>
+                        United States <br><br>
+                        <strong>Phone:</strong> +1 5589 55488 55<br>
+                        <strong>Email:</strong> info@example.com<br>
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Social Networks</h4>
+                    <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+
+
+
+    </div>
+</footer><!-- End Footer -->
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
