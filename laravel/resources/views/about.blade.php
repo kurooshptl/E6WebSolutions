@@ -7,23 +7,29 @@
             </div>
 
             <div class="row content">
-                <div class="col-lg-6">
-                    <p>
+                <div class="col-lg-12">
+                    <p class="text-center">
                         Providing unique professional, reliable and excellent services that deliver best value possible with a reasonable cost of ownership consequently lowering initial investments needed for organizations development.
-                        </p><p>We anticipate the needs of our customers and make all efforts to exceed our customers’ expectations.
-                        </p><p>We provide opportunities for growth and enrichment to our employees and our business partners.
+                        We anticipate the needs of our customers and make all efforts to exceed our customers’ expectations.
+                       We provide opportunities for growth and enrichment to our employees and our business partners.
                     </p>
 
                 </div>
-                <div class="col-lg-6">
+            </div>
+                <br/>
+            <div class="row content">
+            <div class="col-lg-6">
                     <p>
 
 <b> 01.Fast and Reliable Delivery</b><br/>
                        <i class="ri-check-double-line"></i> Our team is committed to its work and timeline, hence making sure that you get your website within the stipulated time.
-                       <br/>
+                    </p>
+                </div>
+                    <div class="col-lg-6">
+                        <p>
                         <b> 02.Dedicated Team</b>
                         <br/>
-                       <i class="ri-check-double-line"></i> E6 web solutions has handpicked every developer and designer working with the team. They work with honest dedication to every project
+                       <i class="ri-check-double-line"></i> E6 web solutions has handpicked every developer and designer working with the team.
 
 
                     </p>
