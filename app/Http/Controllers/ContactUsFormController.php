@@ -85,5 +85,6 @@ class ContactUsFormController extends Controller
         if ($validator->fails()) {
            return "Please enter email id";
         }
+        $this->contactUsRepository->store($request->all());
     }
 }

@@ -38,4 +38,4 @@ Route::get('/team', function () {
 
 Route::post('/contact', 'ContactUsFormController@store')->name('contact.store');
 Route::post('/quotes', 'QuoteController@store')->name('quote.store');
-Route::post('/subscribe', 'ContactUsFormController@subscribe')->name('contact.subscribe');
+Route::post('/subscribe', 'SubscriptionController@store')->name('subscribe');

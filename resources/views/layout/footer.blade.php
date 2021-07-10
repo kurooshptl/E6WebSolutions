@@ -6,10 +6,19 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <h4>Join Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="subscribe" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                    <p>Stay updated with the latest blogs, news, and plans.</p>
+                    <form action="{{route('subscribe')}}" method="post" class="subscription-email-form">
+                        @csrf
+                        <input type="email" name="email" placeholder="Email ID">
+
+                        <input type="submit" value="Subscribe">
+
                     </form>
+                    <div class="my-3 subscription-errors">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
                 </div>
             </div>
         </div>

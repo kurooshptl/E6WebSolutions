@@ -1466,7 +1466,7 @@ section {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .validate {
+.contact .php-email-form .validate , .subscription-errors .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
@@ -1474,20 +1474,20 @@ section {
   font-size: 13px;
 }
 
-.contact .php-email-form .error-message {
+.contact .php-email-form .error-message , .subscription-errors .error-message {
   display: none;
-  color: #fff;
-  background: #ed3c0d;
+  color: red;
+  /*background: #ed3c0d;*/
   text-align: left;
-  padding: 15px;
+  padding: 0px 0px 0px 18px;
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br + br {
+.contact .php-email-form .error-message br + br, .subscription-errors .error-message br + br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .php-email-form .sent-message, .subscription-errors .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1496,14 +1496,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .php-email-form .loading,  .subscription-errors .loading {
   display: none;
-  background: #fff;
+  /*background: #fff;*/
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .php-email-form .loading:before,  .subscription-errors .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
