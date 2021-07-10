@@ -42,7 +42,7 @@
 <header id="header" class="fixed-top header-scrolled">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="{{route('home')}}">{{env('APP_NAME')}}</a></h1>
+        <h1 class="logo me-auto"><a href="{{route('home')}}">{{config('constants.app_name')}}</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html" class="logo me-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
 
