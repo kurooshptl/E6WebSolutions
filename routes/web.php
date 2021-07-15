@@ -39,3 +39,6 @@ Route::get('/team', function () {
 Route::post('/contact', 'ContactUsFormController@store')->name('contact.store');
 Route::post('/quotes', 'QuoteController@store')->name('quote.store');
 Route::post('/subscribe', 'SubscriptionController@store')->name('subscribe');
+Route::get('/blog/{id}', 'BlogController@show')->name('blog.show');
+
+
