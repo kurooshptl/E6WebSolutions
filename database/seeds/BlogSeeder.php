@@ -31,7 +31,7 @@ The Intelligent Cloud platform can easily integrate with a company\'s existing E
     When integrated with comprehensive, end-to-end technologies, a holistic cloud approach will bring exceptional speed, generate new revenue sources, and extract useful insights from data. The cloud serves as a foundation for the development of various digital capabilities.
 <br><br><b>Conclusion</b>
     It is crystal clear that the era of first-generation Cloud technology has come to an end. For today\'s organizations, Intelligent Cloud has opened up a whole new world of limitless possibilities. Empowering sensitive gadgets with nearly limitless Cloud computing capacity can help businesses create immersive experiences as well as impactful solutions.',
-            'image' => 'images/blog/2.jpg',
+            'image' => 'img/blog/2.jpg',
             'written_by'=>'Divya Hapani',
         ]);
         DB::table('blog')->insert([
@@ -74,7 +74,7 @@ You don’t want to lose a client to an opponent just because you made it diffic
 To compete in today’s world, your company requires a digital presence, and websites play a significant role in the growth of a company. As a result, we must be more precise and competent when designing and creating rich, and dynamic websites, as well as mobile-friendly websites.
 
 ',
-            'image' => 'images/blog/2.jpg',
+            'image' => 'img/blog/2.jpg',
             'written_by'=>'Divya Hapani',
         ]);
         DB::table('blog')->insert([
@@ -96,7 +96,7 @@ After research, we have listed 10 tips to launch a successful mobile app develop
 
 <br><br><b>Conclusion:</b><br><br>
     Hope these ideas are useful and assist you in developing a successful mobile application. As you can see, simply creating an app does not guarantee its success. It’s a combination of several actions and long-term initiatives that transform your app into a huge hit.',
-            'image' => 'images/blog/2.jpg',
+            'image' => 'img/blog/2.jpg',
             'written_by'=>'Divya Hapani',
         ]);
     }
