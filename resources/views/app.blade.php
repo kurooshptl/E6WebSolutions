@@ -48,15 +48,12 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="{{route('home')}}">Home</a></li>
-                <li><a class="nav-link scrollto" href="{{route('about')}}">About</a></li>
-                <li><a class="nav-link scrollto" href="{{route('service')}}">Services</a></li>
-{{--                <li><a class="nav-link   scrollto" href="{{route('portfolio')}}">Portfolio</a></li>--}}
-                <li><a class="nav-link scrollto" href="{{route('blog')}}">Blog</a></li>
-                <li><a class="nav-link scrollto" href="{{route('team')}}">Team</a></li>
-
-                <li><a class="nav-link scrollto" href="{{route('contact')}}">Contact</a></li>
-{{--                <li><a class="getstarted scrollto" href="#about">Get Quote</a></li>--}}
+                <li><a class="nav-link scrollto {{Route::current()->getName() == 'home'?'active':''}} " href="{{route('home')}}">Home</a></li>
+                <li><a class="nav-link scrollto {{Route::current()->getName() == 'about'?'active':''}} " href="{{route('about')}}">About</a></li>
+                <li><a class="nav-link scrollto {{Route::current()->getName() == 'service'?'active':''}} " href="{{route('service')}}">Services</a></li>
+                <li><a class="nav-link scrollto {{Route::current()->getName() == 'blog' || Route::current()->getName() == 'blog.show'?'active':''}} " href="{{route('blog')}}">Blog</a></li>
+                <li><a class="nav-link scrollto {{Route::current()->getName() == 'team'?'active':''}} " href="{{route('team')}}">Team</a></li>
+                <li><a class="nav-link scrollto {{Route::current()->getName() == 'contact'?'active':''}} " href="{{route('contact')}}">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
