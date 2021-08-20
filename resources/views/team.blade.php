@@ -25,7 +25,7 @@
                 </div>
                 <div class="col-lg-4 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{asset('img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Rushabh Shah</h4>
                             <span>Co-Owner</span>
@@ -113,7 +113,7 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{asset('img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Kashyap Shah</h4>
                             <span>DM Executive</span>
