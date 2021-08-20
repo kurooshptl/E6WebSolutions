@@ -6,7 +6,7 @@
 
     <!-- ======= Blog Section ======= -->
     <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
+        <div class="container pt-4" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Blogs</h2>
