@@ -30,7 +30,7 @@
                 <div class="row">
 
                     <div class="col-lg-4 col-md-6 footer-contact">
-                        <img src="/img/E6_Web_solutions_Logo.png" width=250>
+                        <img src="{{asset('img/E6_Web_solutions_Logo.png')}}" width=250>
                         <p class="pt-2">
                             804, Matrix Tower, Corporate Road, Makarba, Ahmedabad <br><br>
                             <strong>Phone:</strong> +91 98250 98361<br>
