@@ -53,9 +53,6 @@ class ContactUsFormController extends Controller
                 return "Please enter correct values";
             }
 
-            //  Store data in database
-//        Contacts::create($request->all());
-
             $this->contactUsRepository->store($request->all());
 
             //  Send mail to admin

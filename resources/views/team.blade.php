@@ -7,13 +7,13 @@
                 <h2>OUR AMAZING TEAM</h2>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-4 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="pic"><img src="{{asset('img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{asset('img/team/Jaydip.png')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                            <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                            <h4>Jaydip Damasiya</h4>
+                            <span>Owner</span>
+
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>
@@ -23,48 +23,166 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-6 mt-4 mt-lg-0">
-                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="pic"><img src="{{asset('img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
-                        <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                            <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                            <div class="social">
-                                <a href=""><i class="ri-twitter-fill"></i></a>
-                                <a href=""><i class="ri-facebook-fill"></i></a>
-                                <a href=""><i class="ri-instagram-fill"></i></a>
-                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 mt-4">
-                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="pic"><img src="{{asset('img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
-                        <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                            <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                            <div class="social">
-                                <a href=""><i class="ri-twitter-fill"></i></a>
-                                <a href=""><i class="ri-facebook-fill"></i></a>
-                                <a href=""><i class="ri-instagram-fill"></i></a>
-                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 mt-4">
+                <div class="col-lg-4 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
                         <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                            <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                            <h4>Rushabh Shah</h4>
+                            <span>Co-Owner</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 ">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="pic"><img src="{{asset('img/team/vishwa-team.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Vishwa Patel</h4>
+                            <span>CEO</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/kuroosh-team.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Kuroosh Patel</h4>
+                            <span>CTO</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="pic"><img src="{{asset('img/team/krishna-team.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Krishna Vaghasiya</h4>
+                            <span>Project Director</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/vrunda-team.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Vrunda Raval</h4>
+                            <span>Sr. Web Developer</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Kashyap Shah</h4>
+                            <span>DM Executive</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/divya-team.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Divya Hapani</h4>
+                            <span>Marketing Manager</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Jhanvi Dave</h4>
+                            <span>HR Executive</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/Hiren-team.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Hiren Vaghasiya</h4>
+                            <span>Marketing Executive</span>
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Vatsal Jadeja</h4>
+                            <span>BD Executive</span>
+
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>

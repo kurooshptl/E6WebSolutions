@@ -144,7 +144,7 @@
                         </div>--}}
 
                         <div class="sidebar-widget card border-0 mb-3">
-                            <img src="{{asset('img/team/team-1.jpg')}}" alt="" class="img-fluid">
+                            <img src="{{asset('img/team/divya.jpg')}}" alt="" class="img-fluid">
                             <div class="card-body p-4 text-center">
                                 <h5 class="mb-0 mt-4" style="text-transform: capitalize">{{$blog->written_by}}</h5>
                                 <p>Digital Marketer</p>

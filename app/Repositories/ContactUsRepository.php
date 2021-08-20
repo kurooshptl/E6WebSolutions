@@ -27,7 +27,6 @@ class ContactUsRepository
      */
     public function store($data)
     {
-
         $this->model->create($data);
     }
 }

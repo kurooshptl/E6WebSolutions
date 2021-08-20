@@ -38,7 +38,10 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4><a href="">Build Your Website Professionally</a></h4>
-                            <p>Drive innovation in your company with custom software development. Solve unique business challenges to achieve significant results.</p>
+                            <p>Driven by innovation and human behavior, our website design agency is changing the way brands connect with audiences in a digital world.</p>
+
+
+
                         </div>
                     </div>
 
@@ -46,7 +49,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-file"></i></div>
                             <h4><a href="">Modern & Responsive Design</a></h4>
-                            <p>Driven by innovation and human behavior, our website design agency is changing the way brands connect with audiences in a digital world.</p>
+                            <p>We’re a web design company with deep roots in storytelling. Our innovative web design team creates custom designs that are human-centered and conversion focused.</p>
                         </div>
                     </div>
 
@@ -54,7 +57,7 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-tachometer"></i></div>
                             <h4><a href="">High Quality Software Development</a></h4>
-                            <p>We’re a web design company with deep roots in storytelling. Our award-winning web design team creates custom designs that are human-centered and conversion focused.</p>
+                            <p>Drive innovation in your company with custom software development. Solve unique business challenges to achieve significant results.</p>
                         </div>
                     </div>
                 </div>
