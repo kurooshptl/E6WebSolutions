@@ -17,4 +17,4 @@ mix.js('resources/js/app.js', 'public/js')
     .copyDirectory('resources/js', 'public/js')
     .copyDirectory('resources/img', 'public/img')
     .copyDirectory('resources/vendor', 'public/vendor')
-    .copyDirectory('resources/plugin', 'public/plugin');
+    .copyDirectory('resources/plugins', 'public/plugins');
