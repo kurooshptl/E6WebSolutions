@@ -12,7 +12,7 @@
                         <div class="pic"><img src="{{asset('img/team/Jaydip.png')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Jaydip Damasiya</h4>
-                            <span>Owner</span>
+                            <span>Founder</span>
 
                             <div class="social">
                                 <a href="https://twitter.com/jay54218"><i class="ri-twitter-fill"></i></a>
@@ -28,7 +28,7 @@
                         <div class="pic"><img src="{{asset('img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Rushabh Shah</h4>
-                            <span>Co-Owner</span>
+                            <span>Chief of Finance</span>
 
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -45,7 +45,7 @@
                         <div class="pic"><img src="{{asset('img/team/vishwa-team.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Vishwa Patel</h4>
-                            <span>CEO</span>
+                            <span>Owner</span>
 
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -62,7 +62,7 @@
                         <div class="pic"><img src="{{asset('img/team/kuroosh-team.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Kuroosh Patel</h4>
-                            <span>CTO</span>
+                            <span>Director</span>
 
                             <div class="social">
                                 <a href="https://twitter.com/Kuroosh2"><i class="ri-twitter-fill"></i></a>
@@ -79,7 +79,7 @@
                         <div class="pic"><img src="{{asset('img/team/krishna-team.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Krishna Vaghasiya</h4>
-                            <span>Project Director</span>
+                            <span>Co-founder</span>
 
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -97,7 +97,7 @@
                         <div class="pic"><img src="{{asset('img/team/vrunda-team.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Vrunda Raval</h4>
-                            <span>Sr. Web Developer</span>
+                            <span>CEO</span>
 
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
@@ -165,7 +165,7 @@
                         <div class="pic"><img src="{{asset('img/team/Hiren-team.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Hiren Vaghasiya</h4>
-                            <span>Marketing Executive</span>
+                            <span>Head of Marketing</span>
 
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
