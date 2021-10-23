@@ -11,21 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/about', function () {
     return view('about');
 })->name('about');
 Route::get('/service', function () {
     return view('services');
-})->name('service');/*
+})->name('service');
 Route::get('/portfolio', function () {
     return view('portfolio');
-})->name('portfolio');*/
-Route::get('/blog', function () {
-    return view('blog');
-})->name('blog');
+})->name('portfolio');
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
@@ -40,5 +35,7 @@ Route::post('/contact', 'ContactUsFormController@store')->name('contact.store');
 Route::post('/quotes', 'QuoteController@store')->name('quote.store');
 Route::post('/subscribe', 'SubscriptionController@store')->name('subscribe');
 Route::get('/blog/{id}', 'BlogController@show')->name('blog.show');
-
+Route::get('/blog', 'BlogController@index')->name('blog');
+Route::get('/portfolio', 'PortfolioController@index')->name('portfolio');
+Route::get('/portfolio/{id}', 'PortfolioController@show')->name('portfolio.show');
 

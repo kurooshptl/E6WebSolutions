@@ -3,23 +3,19 @@
 namespace App\Repositories;
 
 use App\Models\Blog;
+use App\Models\Portfolio;
 
 
-class BlogRepository
+class PortfolioRepository
 {
-    public function __construct(Blog $blog)
+    public function __construct(Portfolio $portfolio)
     {
 
-        $this->model = $blog;
+        $this->model = $portfolio;
     }
 
     public function all(){
-        return $this->model->orderBy('id','desc')->get();
-    }
-
-    public function getBlogsWithLimit($limit){
-        return $this->model->orderBy('id','desc')->limit($limit)->get();
-
+        return $this->model->all();
     }
     /**
      * @param $data

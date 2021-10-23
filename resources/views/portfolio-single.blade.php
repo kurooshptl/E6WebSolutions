@@ -6,25 +6,21 @@
     <section id="about" class="about section-bg">
         <div class="container pt-4" data-aos="fade-up">
             <div class="section-title">
-                <h2>Blog</h2>
+                <h2>Portfolio</h2>
             </div>
             <div class="row">
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-12 mb-5">
                             <div class="single-blog-item">
-                                <img src="{{asset($blog->image)}}" alt="" class="img-fluid rounded">
+                                <img src="/img/portfolio/{{$portfolio->image?$portfolio->image:'portfolio-3.jpg'}}" alt="" class="img-fluid rounded">
 
                                 <div class="blog-item-content bg-white p-5">
-                                    <div class="blog-item-meta bg-gray py-1 px-2">
-{{--                                        <span class="text-muted text-capitalize mr-3"><i class="ti-pencil-alt mr-2"></i>Creativity</span>--}}
-{{--                                        <span class="text-muted text-capitalize mr-3"><i class="ti-comment mr-2"></i>5 Comments</span>--}}
-                                        <span class="text-black text-capitalize mr-3"><i class="ti-time mr-1"></i>Written On: {{$blog->created_at_date}}</span>
-                                    </div>
 
-                                    <h2 class="mt-3 mb-4"><a href="blog-single.html">{{$blog->title}}</a></h2>
 
-                                    <p>{!! $blog->text !!}</p>
+                                    <h2 class="mt-3 mb-4"><a href="blog-single.html">{{$portfolio->title}}</a></h2>
+
+                                    <p>{!! $portfolio->text !!}</p>
 
                                     {{--<div class="tag-option mt-5 clearfix">
                                         <ul class="float-left list-inline">
@@ -143,48 +139,19 @@
                             <a href="#" class="btn btn-mian btn-small d-block mt-2">search</a>
                         </div>--}}
 
-                        <div class="sidebar-widget card border-0 mb-3">
-                            <img src="{{asset('img/team/divya.jpg')}}" alt="" class="img-fluid">
-                            <div class="card-body p-4 text-center">
-                                <h5 class="mb-0 mt-4" style="text-transform: capitalize">{{$blog->written_by}}</h5>
-                                <p>Digital Marketer</p>
-                                <p></p>
-
-                                <ul class="list-inline author-socials">
-                                    <li class="list-inline-item mr-3">
-                                        <a href="#"><i class="fab fa-facebook-f text-muted"></i></a>
-                                    </li>
-                                    <li class="list-inline-item mr-3">
-                                        <a href="#"><i class="fab fa-twitter text-muted"></i></a>
-                                    </li>
-                                    <li class="list-inline-item mr-3">
-                                        <a href="#"><i class="fab fa-linkedin-in text-muted"></i></a>
-                                    </li>
-                                    <li class="list-inline-item mr-3">
-                                        <a href="#"><i class="fab fa-pinterest text-muted"></i></a>
-                                    </li>
-                                    <li class="list-inline-item mr-3">
-                                        <a href="#"><i class="fab fa-behance text-muted"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
 
                         <div class="sidebar-widget latest-post card border-0 p-4 mb-3">
-                            <h5>Latest Posts</h5>
+                            <h5>Other Portfolios</h5>
 
-                            @foreach($blogs as $item )
+                            @foreach($portfolios as $item)
                             <div class="media border-bottom py-3">
-                                <a href="#"><img class="mr-4" src="images/blog/bt-3.jpg" alt=""></a>
+
                                 <div class="media-body">
-                                    <h6 class="my-2"><a href="{{route('blog.show',$item->id)}}">{{$item->title}}</a></h6>
-                                    <span class="text-sm text-muted">{{$item->created_at_date}}</span>
+                                    <h6 class="my-2"><a href="{{route('portfolio.show',$item->id)}}">{{$item->title}}</a></h6>
+                                    <span class="text-sm text-muted">{{substr($item->text,0,50)}}...</span>
                                 </div>
                             </div>
                             @endforeach
-
-                        </div>
-
                        {{-- <div class="sidebar-widget bg-white rounded tags p-4 mb-3">
                             <h5 class="mb-4">Tags</h5>
 

@@ -10,9 +10,9 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="pic"><img src="{{asset('img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{asset('img/team/Jaydip.png')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Rushabh Shah</h4>
+                            <h4>Jaydip Damasiya</h4>
 
 
                             <div class="social">
@@ -25,11 +25,11 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 mt-4 ">
-                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="pic"><img src="{{asset('img/team/vishwa-team.jpg')}}" class="img-fluid" alt=""></div>
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/Rushabh.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Vishwa Patel</h4>
+                            <h4>Rushabh Shah</h4>
 
 
                             <div class="social">
@@ -50,14 +50,37 @@
 
 
                             <div class="social">
-                                <a href="https://twitter.com/Kuroosh2"><i class="ri-twitter-fill"></i></a>
-                                <a href="https://www.facebook.com/kuroosh.patel.7/"><i class="ri-facebook-fill"></i></a>
-                                <a href="https://www.instagram.com/__kuroosh__/"><i class="ri-instagram-fill"></i></a>
-                                <a href="https://www.linkedin.com/in/kuroosh-patel-815417159/"> <i class="ri-linkedin-box-fill"></i> </a>
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+                <div class="col-lg-4 mt-4 ">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="pic"><img src="{{asset('img/team/vishwa-team.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Vishwa Patel</h4>
+
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div class="col-lg-4 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
@@ -131,7 +154,7 @@
                 </div>
                 <div class="col-lg-4 mt-4">
                     <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="pic"><img src="{{asset('img/team/team-4.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="{{asset('img/team/Jhanvi.jpg')}}" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Jhanvi Dave</h4>
 
@@ -161,7 +184,22 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="pic"><img src="{{asset('img/team/team-1.jpg')}}" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Dhruv Pandit</h4>
 
+
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 

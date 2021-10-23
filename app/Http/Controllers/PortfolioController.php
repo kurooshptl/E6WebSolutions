@@ -2,32 +2,47 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\BlogRepository;
 use App\Repositories\ContactUsRepository;
+use App\Repositories\PortfolioRepository;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Validator;
 
-/**
- * Class ContactUsFormController
- * @package App\Http\Controllers
- */
-class ContactUsFormController extends Controller
+class PortfolioController extends Controller
 {
     /**
-     * @var ContactUsRepository
+     * @var PortfolioRepository
      */
-    public $contactUsRepository;
+    public $portfolioRepository;
 
-    /**
-     * ContactUsFormController constructor.
-     *
-     * @param ContactUsRepository $contactUsRepository
-     */
-    public function __construct(ContactUsRepository $contactUsRepository)
+    public function __construct(PortfolioRepository $portfolioRepository)
     {
 
-        $this->contactUsRepository = $contactUsRepository;
+        $this->portfolioRepository = $portfolioRepository;
+    }
+
+    public function index(){
+        try{
+            $portfolios = $this->portfolioRepository->all();
+            return view('portfolio')->with(compact('portfolios'));
+        }catch(\Exception $e){
+            Log::error($e->getMessage());
+        }
+    }
+
+    public function show(Request $request,$id){
+        try{
+            $portfolio = $this->portfolioRepository->show((int)$id);
+            $portfolios = $this->portfolioRepository->all();
+
+            return view('portfolio-single')->with(compact(['portfolio','portfolios']));
+        }catch(\Exception $e){
+            dd($e->getMessage());
+            Log::error($e->getMessage());
+        }
     }
 
     // Store Contact Form data
@@ -53,7 +68,10 @@ class ContactUsFormController extends Controller
                 return "Please enter correct values";
             }
 
-            $this->contactUsRepository->store($request->all());
+            //  Store data in database
+//        Contacts::create($request->all());
+
+            $this->portfolioRepository->store($request->all());
 
             //  Send mail to admin
             \Mail::send('emails.contact', array(
@@ -71,7 +89,6 @@ class ContactUsFormController extends Controller
 //            return back()->with('success', 'We have received your message and would like to thank you for writing to us.');
             return "OK";
         } catch (\Exception $e) {
-            // return $e->getMessage();
             Log::error($e->getMessage());
         }
     }
@@ -83,6 +100,6 @@ class ContactUsFormController extends Controller
         if ($validator->fails()) {
            return "Please enter email id";
         }
-        $this->contactUsRepository->store($request->all());
+        $this->portfolioRepository->store($request->all());
     }
 }

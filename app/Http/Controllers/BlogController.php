@@ -23,14 +23,26 @@ class BlogController extends Controller
         $this->blogRepository = $blogRepository;
     }
 
+    public function index(){
+        try{
+            $blogs = $this->blogRepository->all();
+            return view('blog')->with(compact('blogs'));
+        }catch(\Exception $e){
+            Log::error($e->getMessage());
+        }
+    }
+
     public function show(Request $request,$id){
         try{
             $blog = $this->blogRepository->show((int)$id);
 
             $blog->created_at_date =  Carbon::createFromFormat('Y-m-d H:i:s', $blog->created_at)->format('d F');
+            $blogs = $this->blogRepository->all();
+            foreach($blogs as $item){
+                $item->created_at_date=Carbon::createFromFormat('Y-m-d H:i:s', $item->created_at)->format('d F');
+            }
 
-
-            return view('blog-single')->with(compact('blog'));
+            return view('blog-single')->with(compact(['blog','blogs']));
         }catch(\Exception $e){
             dd($e->getMessage());
             Log::error($e->getMessage());

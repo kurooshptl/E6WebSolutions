@@ -52,6 +52,7 @@
                 <li><a class="nav-link scrollto {{Route::current()->getName() == 'about'?'active':''}} " href="{{route('about')}}">About</a></li>
                 <li><a class="nav-link scrollto {{Route::current()->getName() == 'service'?'active':''}} " href="{{route('service')}}">Services</a></li>
                 <li><a class="nav-link scrollto {{Route::current()->getName() == 'blog' || Route::current()->getName() == 'blog.show'?'active':''}} " href="{{route('blog')}}">Blog</a></li>
+                <li><a class="nav-link scrollto {{Route::current()->getName() == 'portfolio' ?'active':''}} " href="{{route('portfolio')}}">Portfolio</a></li>
                 <li><a class="nav-link scrollto {{Route::current()->getName() == 'team'?'active':''}} " href="{{route('team')}}">Team</a></li>
                 <li><a class="nav-link scrollto {{Route::current()->getName() == 'contact'?'active':''}} " href="{{route('contact')}}">Contact</a></li>
             </ul>
